@@ -1,1 +1,1 @@
-{"name":"Story Explorer","short_name":"StoryApp","description":"Story App with PWA and Push Notification","start_url":"/story-app-final/","display":"standalone","background_color":"#ffffff","theme_color":"#42b883","lang":"en","scope":"/story-app-final/"}
+{"name":"Story Explorer","short_name":"StoryApp","description":"Story App with PWA and Push Notification","start_url":"/story-apps/","display":"standalone","background_color":"#ffffff","theme_color":"#42b883","lang":"en","scope":"/story-apps/"}
