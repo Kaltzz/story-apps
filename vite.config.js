@@ -2,7 +2,9 @@ import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
-  base: '/story-apps/', // Sesuaikan dengan nama repo Anda
+  // --- PERBAIKAN DI SINI ---
+  // Ganti dengan nama repository Anda yang sebenarnya
+  base: '/story-apps/', 
 
   plugins: [
     VitePWA({
