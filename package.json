@@ -8,7 +8,7 @@
     "preview": "vite preview",
     "deploy": "vite build && gh-pages -d dist"
   },
-  "homepage": "https://kaltzz.github.io/story-app-final",
+  "homepage": "https://kaltzz.github.io/story-apps",
   "dependencies": {
     "idb": "^7.1.1",
     "leaflet": "^1.9.4",
