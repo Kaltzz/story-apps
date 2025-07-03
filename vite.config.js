@@ -2,14 +2,17 @@ import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
-  base: '/story-apps/', // HARUS sesuai nama repo kamu di GitHub
+  base: '/story-apps/', // HARUS sesuai nama repo GitHub kamu
+
+  build: {
+    outDir: 'dist',
+    emptyOutDir: true,
+  },
 
   plugins: [
     VitePWA({
       registerType: 'autoUpdate',
-      strategies: 'injectManifest',
-      srcDir: 'src',
-      filename: 'sw.js',
+      strategies: 'generateSW', // gunakan generateSW kecuali kamu butuh injectManifest
       manifest: {
         name: 'Story Explorer',
         short_name: 'StoryApp',
